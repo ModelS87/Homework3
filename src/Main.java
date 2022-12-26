@@ -50,6 +50,14 @@ public class Main {
         int brownPaintTotal = 4 * classes;
         int whitePaintTotal = 2 * classes;
         System.out.println( "В школе, где " + classes + " классов, нужно " + whitePaintTotal + " банок белой краски и " + brownPaintTotal + " банок коричневой краски.");
+        byte bananaWeightGR = 80;
+        byte milkWeightGR = 105;
+        byte iceWeightGR = 100;
+        byte eggWeightGR = 70;
+        int breakfastWeightGR = 5 * bananaWeightGR + 2 * milkWeightGR + 2 * iceWeightGR + 4 * eggWeightGR;
+        float breakfastWeieghtKG = breakfastWeightGR / 1000f;
+        System.out.println("Вес завтрака спортсмена в граммах - " + breakfastWeightGR + ", а в килограммах - " + breakfastWeieghtKG);
+
 
 
 
