@@ -43,6 +43,13 @@ public class Main {
         System.out.println("За трое суток машина произвела " + bottle3Days + " штук бутылок");
         int bottle1Month = bottle1Day * 30;
         System.out.println("За 1 месяц машина произвела " + bottle1Month + " штук бутылок");
+        byte whitePaint = 2;
+        byte brownPaint = 4;
+        int classes = 120 / (whitePaint + brownPaint);
+        System.out.println(classes);
+        int brownPaintTotal = 4 * classes;
+        int whitePaintTotal = 2 * classes;
+        System.out.println( "В школе, где " + classes + " классов, нужно " + whitePaintTotal + " банок белой краски и " + brownPaintTotal + " банок коричневой краски.");
 
 
 
