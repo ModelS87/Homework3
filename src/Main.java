@@ -57,6 +57,14 @@ public class Main {
         int breakfastWeightGR = 5 * bananaWeightGR + 2 * milkWeightGR + 2 * iceWeightGR + 4 * eggWeightGR;
         float breakfastWeieghtKG = breakfastWeightGR / 1000f;
         System.out.println("Вес завтрака спортсмена в граммах - " + breakfastWeightGR + ", а в килограммах - " + breakfastWeieghtKG);
+        int needWeight = 7000;
+        int plan1 = needWeight / 250;
+        int plan2 = needWeight / 500;
+        System.out.println("Если спортсмен будет терять каждый день по 250 грамм, то вес уйдет через " + plan1 + " дней. А если - по 500 грамм, то на похудение уйдет " + plan2 + " дней.");
+        int plan3Weight = (250 + 500) / 2;
+        int averageDays = needWeight / plan3Weight;
+        System.out.println("В среднем на похудение уйдет " + averageDays + " дней.");
+
 
 
 
