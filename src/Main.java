@@ -64,6 +64,28 @@ public class Main {
         int plan3Weight = (250 + 500) / 2;
         int averageDays = needWeight / plan3Weight;
         System.out.println("В среднем на похудение уйдет " + averageDays + " дней.");
+        int salaryMasha = 67760;
+        int salaryDenis = 83690;
+        int salaryKristina = 76230;
+        int salaryMasha10Per = salaryMasha/100*10;
+        int salaryDenis10Per = salaryDenis/100*10;
+        int salaryKristina10Per = salaryKristina/100*10;
+        int newsalaryMasha = salaryMasha + salaryMasha10Per;
+        int newsalaryMashaYear = newsalaryMasha *12;
+        int newsalaryDenis = salaryDenis + salaryDenis10Per;
+        int newsalaryDenisYear = newsalaryDenis *12;
+        int newsalaryKristina = salaryKristina + salaryKristina10Per;
+        int newsalaryKristinaYear = newsalaryKristina *12;
+        int salaryMashaYear = salaryMasha*12;
+        int salaryDenisYear = salaryDenis*12;
+        int salaryKristinaYear = salaryKristina*12;
+        int diffMasha = newsalaryMashaYear - salaryMashaYear;
+        int diffDenis = newsalaryDenisYear - salaryDenisYear;
+        int diffKristina = newsalaryKristinaYear - salaryKristinaYear;
+        System.out.println("Маша теперь получает " + newsalaryMasha +" рублей. Годовой доход вырос на " + diffMasha + " рублей.");
+        System.out.println("Денис теперь получает " + newsalaryDenis +" рублей. Годовой доход вырос на " + diffDenis + " рублей.");
+        System.out.println("Маша теперь получает " + newsalaryKristina +" рублей. Годовой доход вырос на " + diffKristina + " рублей.");
+
 
 
 
